@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pag</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <nav class="menu">
+            <a href="index.html">inicio</a>
+            <a href="nosotros.html">nosotros</a>
+            <a href="servicios.html">servicios</a>
+            <a href="registro.html">registro</a>
+            <a href="contacto.html">contacto</a>
+    </nav>
+
+<!-- Class PARA PODER BUSCARLO POR ESE NOMBRE IDENTIFICADOR
+Id PARA PODER IDENTIFICAR DENTRO DEL MISMO ARCHIVO NO OTROS Y CLASS SI ABARCA MAS COMO CSS
+Action a donde quiero enviar los datos action
+Method como los voy a enviar
+----------------------------------
+id archivo html nomas
+name para otro archivo
+----------------------------------
+get casi no se usa se usa mas post
+
+-->
+<form class="form_datos" action="resultado.html" method="get" id="formulario">
+    <div class="registro-titulo">
+        <h1>Registro UwU</h1>
+    </div>
+    <!--Input para texto Nombre-->
+    <label for="Nombre">Nombre</label>
+    <input class="input_" type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+    <!--Input para texto Apellido-->
+    <label for="Apellido">Apellido</label>
+    <input class="input_" type="text" name="Apellido" id="Apellido" placeholder="Apellido">
+    <!--Input para genero -->
+    <label for="Genero">Genero</label>
+    <input class="Genero" type="radio" name="Genero" id="Genero">Hombre</input>
+    <input class="Genero" type="radio" name="Genero" id="Genero">Mujer</input>
+    <input class="Genero" type="radio" name="Genero" id="Genero">Transformer</input>
+    <!--Input para correo-->
+    <br>
+    <div class="correo_">
+        <br>
+        <label for="correo">Correo</label>
+        </br>
+        <input class="input_" type="email" name="correo" id="correo" placeholder="Correo">
+    </input>
+    </div>
+    </br>
+    <!--Input para ingresar fecha-->
+    <label for="fecha">Fecha</label>
+    <input class="input_" type="date" name="fecha" id="fecha">
+    <!--Input para ingresar fecha-->
+    <label for="direccion">Direccion:</label>
+    <textarea class="input_" name="direccion" id="direccion" cols="40" rows="10"></textarea>
+    <!--Input para ingresar submit-->
+    <input class="enviar_" type="submit" name="enviar" id="enviar" value="Enviar">
+</form>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.enviar_{
+    padding: 4px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 130px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: white;
+    font-family: sans-serif;
+}
+.enviar_:hover{
+    background-color: rgb(147, 248, 248);
+}
+.form_datos{
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 20px;
+    /*background-color: rgb(127, 202, 255);*/
+    margin-top: 60px;
+    font-family: sans-serif;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+
+}
+
+.input_{
+    /*altura de separacion elementos*/
+    padding: 5px;
+    /*anchura de separacion elementos*/
+    width: 400px;
+    /*permite cambiar el bordeado a uno mas redondo*/
+    border-radius: 15px;
+    /*dar separacion entre cada elemento*/
+    margin-bottom: 10px;
+    /*permite generar un borde de algun color y que tan grueso*/
+    border: 1px solid rgb(2, 2, 2);
+}
+.Genero_{
+    padding: 20px 10px;
+}
+
+.titulo{
+    font-size: 30px; 
+    color: rgb(2, 89, 255);
+    font-family: sans-serif;
+    margin-left: 280px;
+    margin-right: 80px;
+}
+.subtitulo{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgb(2, 89, 255);
+    margin-left: 640px;
+    margin-right: 80px;
+}
+
+.menu{
+    font-size: 20px; color: rgb(255, 255, 255);
+    /*sirve para cambiar la fuente del tipo de letra*/
+    font-family: sans-serif;
+    /*background-color: black;*/
+    height: 30px;
+    /*cambiar a negro*/
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.menu a{
+    padding: 10px 40px;
+    /*padding: 12px 24px;*/
+    text-decoration: none;
+    color: white;
+
+    /*background-color: black;
+    border-radius: 6px;
+    border: 2px solid rgb(62, 62, 62);*/
+}
+.menu a:hover{
+    border: 4px solid cyan;
+    border-radius: 10px;
+}
+.login{
+    /*cambia el color de fondo*/
+    background-color: rgb(0, 255, 255);
+    /*crea un bordeado*/
+    border: 4 solid red;
+}
+
+.horario{
+    /*border: 4px solid black;
+    border-radius: 10px;*/
+    background-color: rgb(255, 0, 0);
+}
+
+
+.registro-titulo{
+    font-size: 13px;
+    margin-left: 30%; 
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+body{
+    /*quiero agregar backgroudd con blur*/
+    background-image: url(~/img/bg.jpg);
+    background-size: cover;
+}

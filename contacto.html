@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pag</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <nav class="menu" >
+        <a href="index.html">inicio</a>
+        <a href="nosotros.html">nosotros</a>
+        <a href="servicios.html">servicios</a>
+        <a href="registro.html">registro</a>
+        <a href="contacto.html">contacto</a>
+    </nav>
+<form class="form_datos" action="resultado.html" method="get" id="formulario">
+        <div class="registro-titulo">
+            <h1>Registro iUwU</h1>
+        </div>
+        <!--Input para texto Nombre-->
+        <input class="input_" type="texttel" name="Nombre" id="Nombre" placeholder="Nombre">
+        <!--Input para correo-->
+        <div class="correo_">
+            <input class="input_" type="email" name="correo" id="correo" placeholder="Correo">
+        </input>
+
+        </div>
+        <input class="input_" type="tel" name="tel" id="tel" required pattern="[0-9]{10}" maxlength="10" placeholder="telefono">
+        <textarea class="input_" name="mensaje" id="mensaje" cols="40" rows="10" placeholder="mensaje"></textarea>
+        <!--Input para ingresar submit-->
+        <input class="enviar_" type="submit" name="enviar" id="enviar" value="Enviar">
+    </form>    
+</body>
+</html>
